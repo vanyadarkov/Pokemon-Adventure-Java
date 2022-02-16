@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coaches>
+    <coach>
+        <name>Anastasia</name>
+        <age>22</age>
+        <pokemons>
+            <pokemon>
+                <name>Eevee</name>
+                <items>
+                    <item>Vitamins</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Psyduck</name>
+                <items>
+                    <item>Cape</item>
+                    <item>Shield</item>
+                    <item>Vest</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Snorlax</name>
+                <items>
+                    <item>Vest</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Carol</name>
+        <age>30</age>
+        <pokemons>
+            <pokemon>
+                <name>Eevee</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Vulpix</name>
+                <items>
+                    <item>Vitamins</item>
+                    <item>Shield</item>
+                    <item>Sword</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

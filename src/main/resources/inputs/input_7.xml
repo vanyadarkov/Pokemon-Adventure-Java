@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Camélia</name>
+        <age>23</age>
+        <pokemons>
+            <pokemon>
+                <name>Jigglypuff</name>
+                <items>
+                    <item>Cape</item>
+                    <item>Shield</item>
+                    <item>Sword</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Meowth</name>
+                <items>
+                    <item>Shield</item>
+                    <item>Vitamins</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Psyduck</name>
+                <items/>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Meg</name>
+        <age>44</age>
+        <pokemons>
+            <pokemon>
+                <name>Snorlax</name>
+                <items>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Magic wand</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Bulbasaur</name>
+                <items>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

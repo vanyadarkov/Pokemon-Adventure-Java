@@ -1,0 +1,40 @@
+Catruc Ionel 322CB
+Proiect POO 2022 - Pokemoni
+
+    Pokemonii sunt reprezentati la inceputul programului ca pokemoni pasnici. Dupa citire din fisier se creeaza
+pokemoni pentru batalie la fiecare antrenor. La fiecare pokemon se adauga iteme dar se folosesc cand pokemonul apare
+prima data intr-o batalie pe arena, dupa asta se semnaleaza ca el si-a folosit deja item-urile. Fiecare pokemon se
+creeaza cu un PokemonFactory care este Singleton, iar pentru Iteme am folosit un ItemBuilder. Dupa initializarea
+antrenorilor se incepe aventura pe arena. Logica pe arena este urmatoarea, fiecare antrenor are cate un neutrel cu care
+se va lupta. Atat timp cat nu a fost 3 lupte intre antrenori, se va alege cate un oponent random. Daca s-a ales
+neutrel, se creeaza 2 batalii (antrenor 1 vs neutrel si antrenor 2 vs neutrel) care vor rula concomitent, pentru lupta
+intre antrenori va avea loc doar o lupta.
+    In continuare, in batalia propriu zisa, se afiseaza detalii despre batalie, pokemoni si daca si-a folosit sau nu
+itemele. Dupa asta, atat timp cat cei doi pokemoni sunt vii ei se vor ataca unul pe altul. Atacul pentru fiecare
+pokemon este ales de antrenor la fel random, iar daca e neutrel unica sa posibilitate va fi atac simplu (nu abilitate).
+Atacul pokemonilor va avea loc in acelasi timp fiindca se va rula cu un executorService. La finalul luptei se afiseaza
+detalii despre castigator, i se incrementeaza caracteristicile si i se calculeaza scorul. In final, se reseteaza
+starea pokemonului la cea initiala.
+    Cand au avut loc 3 batalii intre antrenori, se creeaza si se ruleaza batalia finala dintre pokemonii cei mai buni.
+Inainte si dupa orice batalie intre antrenori pot cadea batalii cu neutrei. Asta am facut cu scopul ca fiecare pokemon
+al antrenorului sa poata primi si se lupta cu neutrei pentru a primi buffuri.
+    Design pattern-uri folosite:
+    - Singleton - folosit pentru a avea mereu o singura instanta de PokemonFactory si ItemBuilder, deoarece nu am nevoie
+de mai multe instante care mi-ar crea un obiect dorit - Factory/Builder va fi unu care va fi valabil peste tot in
+proiect.
+    - Factory - folosit la crearea pokemonilor, iar motivul de ce am folosit factory este pentru a ascunde logica din
+spate folosita la crearea obiectelor Pokemon. Deasemenea, factory a fost util fiindca sunt multe clase campurile carora
+pentru fiecare obiect mereu va fi la fel, iar instantierea unui obiect atunci cand va fi nevoie ar fi ineficient, ar
+cauza cod duplicat si non-readable format. De aceea factory este foarte comfortabil din punctul asta de vederea.
+    - Builder - folosit la crearea obiectelor pentru pokemoni. L-am folosit din cauza eficientei crearii obiectelor
+care pot sa aiba unele campuri necompletate. Cu ajutorul la builder, fiecare obiect se creeaza step-by-step si doar
+cu campurile cerute, ca in final sa se apeleze build si sa returneze obiectul de tip cerut. Builder-ul mi-a permis
+sa produc obiecte cu reprezentari diferite folosind acelasi cod de constructie. Atunci cand nu toate campurile sunt
+obligatorii, eu le-am setat doar pe alea necesare, iar restul Builder-ul mi le-a initilizat cu 0.
+    - Command -  folosit pentru a sti unde se va afisa outputul - consola sau fisier. La inceputul executiei programului
+se va intreba asta, iar in dependenta de ce optiune a fost aleasa, se va executa comanda print a loggerului specific.
+LoggerMenu este loggerul principal, care in el va avea loggerul responsabil de printare. Interfaca Logger ne zice ce
+metoda trebuie sa suprascrie clasa care o va implementa, iar pe ea o implementeaza FileLogger, ConsoleLogger,
+LoggerMenu. In general DP command functioneaza in felul urmator -> O sarcina este incapsulata intr-un obiect sub forma
+de o comanda (metoda din interfaca Logger). Obiectul care va invoca (LoggerMenu) va sti obiectul potrivit care se va
+ocupa de sarcina si transmite comanda obiectului corespunzator care va executa sarcina.

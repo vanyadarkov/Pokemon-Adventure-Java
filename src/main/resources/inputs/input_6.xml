@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Marianna</name>
+        <age>25</age>
+        <pokemons>
+            <pokemon>
+                <name>Squirtle</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Charmander</name>
+                <items>
+                    <item>Vitamins</item>
+                    <item>Sword</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Meowth</name>
+                <items/>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Aurel</name>
+        <age>23</age>
+        <pokemons>
+            <pokemon>
+                <name>Jigglypuff</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Eevee</name>
+                <items>
+                    <item>Magic wand</item>
+                    <item>Vest</item>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Meowth</name>
+                <items>
+                    <item>Sword</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

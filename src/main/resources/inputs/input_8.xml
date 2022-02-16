@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Emerson</name>
+        <age>31</age>
+        <pokemons>
+            <pokemon>
+                <name>Eevee</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Snorlax</name>
+                <items>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Squirtle</name>
+                <items/>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Read</name>
+        <age>18</age>
+        <pokemons>
+            <pokemon>
+                <name>Psyduck</name>
+                <items>
+                    <item>Sword</item>
+                    <item>Christmas tree</item>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Eevee</name>
+                <items>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Jigglypuff</name>
+                <items>
+                    <item>Sword</item>
+                    <item>Cape</item>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

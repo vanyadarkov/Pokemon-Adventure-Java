@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Albert</name>
+        <age>35</age>
+        <pokemons>
+            <pokemon>
+                <name>Eevee</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Squirtle</name>
+                <items>
+                    <item>Magic wand</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Psyduck</name>
+                <items>
+                    <item>Shield</item>
+                    <item>Vest</item>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Myron</name>
+        <age>25</age>
+        <pokemons>
+            <pokemon>
+                <name>Bulbasaur</name>
+                <items>
+                    <item>Shield</item>
+                    <item>Vitamins</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Meowth</name>
+                <items>
+                    <item>Shield</item>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Squirtle</name>
+                <items>
+                    <item>Vitamins</item>
+                    <item>Shield</item>
+                    <item>Magic wand</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

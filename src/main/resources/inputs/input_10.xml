@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Xavia</name>
+        <age>30</age>
+        <pokemons>
+            <pokemon>
+                <name>Snorlax</name>
+                <items>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Vitamins</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Psyduck</name>
+                <items>
+                    <item>Christmas tree</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Donat</name>
+        <age>15</age>
+        <pokemons>
+            <pokemon>
+                <name>Charmander</name>
+                <items>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Shield</item>
+                    <item>Cape</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Jigglypuff</name>
+                <items>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

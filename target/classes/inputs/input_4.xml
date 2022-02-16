@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Ioann</name>
+        <age>20</age>
+        <pokemons>
+            <pokemon>
+                <name>Jigglypuff</name>
+                <items>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Vest</item>
+                    <item>Magic wand</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Vulpix</name>
+                <items>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Tanzi</name>
+        <age>19</age>
+        <pokemons>
+            <pokemon>
+                <name>Snorlax</name>
+                <items>
+                    <item>Christmas tree</item>
+                    <item>Vitamins</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Bulbasaur</name>
+                <items>
+                    <item>Vitamins</item>
+                    <item>Christmas tree</item>
+                    <item>Magic wand</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Squirtle</name>
+                <items>
+                    <item>Magic wand</item>
+                    <item>Vitamins</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

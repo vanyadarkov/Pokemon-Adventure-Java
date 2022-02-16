@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coaches>
+    <coach>
+        <name>Cornel</name>
+        <age>20</age>
+        <pokemons>
+            <pokemon>
+                <name>Bulbasaur</name>
+                <items>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Charmander</name>
+                <items>
+                    <item>Sword</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Eevee</name>
+                <items>
+                    <item>Vitamins</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Andrei</name>
+        <age>20</age>
+        <pokemons>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Cape</item>
+                    <item>Magic wand</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Vulpix</name>
+                <items>
+                    <item>Shield</item>
+                    <item>Vest</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Snorlax</name>
+                <items>
+                    <item>Sword</item>
+                    <item>Shield</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>

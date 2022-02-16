@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coaches>
+    <coach>
+        <name>Keeley</name>
+        <age>21</age>
+        <pokemons>
+            <pokemon>
+                <name>Bulbasaur</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Eevee</name>
+                <items>
+                    <item>Vest</item>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Pikachu</name>
+                <items>
+                    <item>Christmas tree</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+    <coach>
+        <name>Christian</name>
+        <age>17</age>
+        <pokemons>
+            <pokemon>
+                <name>Vulpix</name>
+                <items/>
+            </pokemon>
+            <pokemon>
+                <name>Eevee</name>
+                <items>
+                    <item>Magic wand</item>
+                    <item>Vitamins</item>
+                </items>
+            </pokemon>
+            <pokemon>
+                <name>Psyduck</name>
+                <items>
+                    <item>Vitamins</item>
+                </items>
+            </pokemon>
+        </pokemons>
+    </coach>
+</coaches>
